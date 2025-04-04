@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 P2P File Transfer Frontend (Next.js)  
 
-## Getting Started
+This is the frontend of the **P2P File Transfer** project built using **Next.js 13**. It allows users to send and receive files seamlessly over WebSockets with a Rust-based **Axum** backend.  
 
-First, run the development server:
+## 🔥 Features  
+✅ Next.js 13 with App Router  
+✅ WebSockets for real-time communication  
+✅ Peer-to-peer (P2P) file transfer  
+✅ Supports large file transfers  
+✅ Minimal UI with smooth UX  
 
+## 🛠️ Technologies Used  
+- **Next.js 13** (Frontend framework)  
+- **React Hooks** (State management)  
+- **WebSockets** (Real-time file transfer)  
+- **TypeScript** (Ensuring type safety)  
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/AarambhDevHub/p2p-frontend-setup.git
+cd p2p-frontend-setup
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Run the Project
+```bash
+npm run dev
+```
+Your frontend should now be running at http://localhost:3000 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Project Structure
+```bash
+/p2p-file-transfer-frontend
+│── /app
+│   ├── /send  # Sender logic
+│   ├── /receive  # Receiver logic
+│── /components  # Reusable UI components
+│── /utils  # Utility functions
+│── /public  # Static assets
+│── package.json  # Dependencies & scripts
+│── README.md  # Project documentation
+```
 
-## Learn More
+## 🚀 Backend Integration
+This frontend is designed to work with the Rust (Axum) WebSocket server. Make sure your backend is running before testing.
 
-To learn more about Next.js, take a look at the following resources:
+## 📥 Get the Full Source Code
+💻 Buy the complete frontend & backend code here: [Your Selling Link]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💬 Join Our Community
+📢 Discord: [Discord Link](https://discord.gg/cDAbFuAC)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ☕ Support the Project
+If you find this project helpful, consider buying me a coffee!
+[Buy Me a Coffee](https://buymeacoffee.com/aarambhdevhub)
