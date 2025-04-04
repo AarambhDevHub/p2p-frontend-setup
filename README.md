@@ -51,7 +51,7 @@ Your frontend should now be running at http://localhost:3000 🚀
 This frontend is designed to work with the Rust (Axum) WebSocket server. Make sure your backend is running before testing.
 
 ## 📥 Get the Full Source Code
-💻 Buy the complete frontend & backend code here: [Your Selling Link]
+💻 Buy the complete frontend & backend code here: [Click here for Buy code](https://buymeacoffee.com/aarambhdevhub/e/393547)
 
 ## 💬 Join Our Community
 📢 Discord: [Discord Link](https://discord.gg/cDAbFuAC)
